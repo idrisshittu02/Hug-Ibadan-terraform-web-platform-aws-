@@ -1,6 +1,6 @@
-🌍 Terraform Web Platform on AWS
+Terraform Web Platform on AWS
 
-🚀 A Multi-Environment Web Application Infrastructure Application Infrastructure built with Terraform and deployed on AWS.
+ A Multi-Environment Web Application Infrastructure Application Infrastructure built with Terraform and deployed on AWS.
 This project provisions a secure, scalable, and production-ready environment from scratch — so you can focus on building applications instead of managing infrastructure.
 
 ✨ Features
@@ -15,7 +15,8 @@ Environment Ready – separate configs for dev and prod.
 
 IaC Best Practices – reusable modules, remote state, and versioned provider lock files.
 
-🏗️ Architecture Overview
+Architecture Overview-
+
           ┌──────────────┐
           │   Internet   │
           └──────┬───────┘
@@ -30,6 +31,7 @@ IaC Best Practices – reusable modules, remote state, and versioned provider lo
    ┌────▼────┐
    │  RDS    │
    └─────────┘
+
 
 
 VPC with public & private subnets across multiple AZs
@@ -92,3 +94,4 @@ Idris Shittu
 🐙 GitHub
 
 ⚡ Built with ❤️ and Terraform
+
