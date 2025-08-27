@@ -1,0 +1,37 @@
+# === Terraform ===
+# Local .terraform directories (provider binaries, plugins)
+**/.terraform/*
+**/.terraform.lock.hcl
+
+# Terraform state files (sensitive)
+*.tfstate
+*.tfstate.*
+
+# Crash logs
+crash.log
+
+# Variable files with secrets
+*.tfvars
+*.tfvars.json
+*.auto.tfvars
+*.auto.tfvars.json
+
+# Allow examples
+!terraform.tfvars.example
+
+# === Credentials / Secrets ===
+*.env
+*.pem
+*.key
+*.crt
+
+# === IDE / Editor ===
+.vscode/
+.idea/
+
+# === OS files ===
+.DS_Store
+Thumbs.db
+
+# === Logs ===
+*.log
