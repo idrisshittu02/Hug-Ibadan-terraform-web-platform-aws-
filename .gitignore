@@ -35,3 +35,16 @@ Thumbs.db
 
 # === Logs ===
 *.log
+
+# Terraform local state
+*.tfstate
+*.tfstate.*
+.terraform/
+**/.terraform/*
+**/.terraform.lock.hcl
+
+# Environment specific
+environments/**/.terraform/
+environments/**/*.tfstate
+environments/**/*.tfstate.*
+environments/**/.terraform.lock.hcl
