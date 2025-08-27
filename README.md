@@ -26,12 +26,11 @@ Architecture Overview-
           └──────┬───────┘
         ┌────────┼────────┐
         ▼        ▼        ▼
-   EC2 Instances (Auto Scaling)
-        │
-   ┌────▼────┐
-   │  RDS    │
-   └─────────┘
-
+    EC2 Instances (Auto Scaling)
+                 │
+            ┌────▼────┐
+            │  RDS    │
+            └─────────┘
 
 
 VPC with public & private subnets across multiple AZs
@@ -94,4 +93,5 @@ Idris Shittu
 🐙 GitHub
 
 ⚡ Built with ❤️ and Terraform
+
 
